@@ -1,4 +1,4 @@
-# itinera
+# Itinera
 
 Itinera is a project of the Visual Media Workshop, at the University of Pittsburgh.
 
