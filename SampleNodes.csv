@@ -1,0 +1,12 @@
+name,label,source,target,weight
+"REYNOLDS, Sir Joshua","REYNOLDS, Sir Joshua",1,10,9
+"MIERIS, Francis","MIERIS, Francis",2,11,1
+"NETSCHER, Gaspar","NETSCHER, Gaspar",3,11,1
+"NASMYTH, Patrick","NASMYTH, Patrick",4,10,8
+"MURILLO, Bartolom Estban","MURILLO, Bartolom Estban",5,10,2
+"RUYSDAEL, Jacob","RUYSDAEL, Jacob",6,10,1
+"PYNAKER, Adam","PYNAKER, Adam",7,10,1
+"LANDSEER, Sir Edwin","LANDSEER, Sir Edwin",8,10,1
+"OSTADE, Adriaen van","OSTADE, Adriaen van",9,10,1
+Christie's,Christie's,10,0,0
+Mr. Christie,Mr. Christie,11,0,0
