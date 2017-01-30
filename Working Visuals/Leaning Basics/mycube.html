@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fruits</title>
+	<style type="text/css">
+		.pumpkin {
+    fill: yellow;
+    stroke: orange;
+    stroke-width: 5;
+ }
+	</style>
+	<script type="text/javascript" src="D3/_/d3.min.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+	
+var fruits = [
+{
+	kind: "grape",
+	color: "purple",
+	quantity: 100
+},
+{
+	kind: "kiwi",
+	color: "yellow-green",
+	quantity: 2
+}
+];
+for(var i = 0; i < fruits.length; i++){
+	console.log(fruits[i].color + " " + fruits[i].kind);
+}
+
+var triple = function(fruits){
+	for(var i = 0; i < fruits.length; i++){
+		console.log(fruits[i].quantity * 3);
+	}
+};
+
+triple(fruits);
+
+</script>
+<svg width="600" height="700">
+<rect x="0" y="0" width="400" height="400" fill="#B8F0FD"/>
+<line x1="395" y1="0" x2="448" y2="53" stroke="#ACE0EC" stroke-width="5px"/>
+<line x1="0" y1="0" x2="52" y2="52" stroke="#ACE0EC" stroke-width="5px"/>
+<line x1="0" y1="400" x2="51" y2="448" stroke="#ACE0EC" stroke-width="5px"/>
+<rect x="50" y="50" width="400" height="400" fill="#ACE0EC"/>
+ </svg>
+</body>
+</html>
+
+
+
